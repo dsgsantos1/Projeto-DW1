@@ -10,8 +10,8 @@
 
 #header #menu{
 	position: absolute;
-	top: 0;
-	left: 0;
+	width: 100vw;
+	height: 4.2rem;
 }
 
 #header #content-header{
@@ -24,13 +24,13 @@
 }
 
 #header #content-header img{
-	height: 16rem;
-	width: 16rem;
+	height: 20rem;
+	width: 20rem;
 
-	border-radius: 16rem;	
+	border-radius: 50%;	
 
 	position: absolute;
-	bottom: -8rem;
+	bottom: -50%;
 	
 	background-color: black;
 }
