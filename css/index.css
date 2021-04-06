@@ -8,7 +8,7 @@
 	justify-content: center;
 }
 
-#header #menu{
+#header #menu-content{
 	position: absolute;
 	width: 100vw;
 	height: 4.2rem;
@@ -35,3 +35,11 @@
 	background-color: black;
 }
 
+#menu-icon{
+	font-size: 3.4rem;
+}
+
+#menu {
+	font-size: 3.4rem;
+	display: flex;
+}
