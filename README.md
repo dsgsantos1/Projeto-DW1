@@ -34,3 +34,6 @@ A nossa equipe se "Super Shoncks" e é composta pelos alunos abaixo:
 [fotinha]
 [resumo]
 [link conta github ou outros perfils]
+
+# Link para acessar
+https://dsgsantos1.github.io/Projeto-DW1/
