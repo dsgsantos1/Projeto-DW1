@@ -40,6 +40,29 @@
 }
 
 #menu {
+	position: fixed;
 	font-size: 3.4rem;
 	display: flex;
 }
+
+.hide{
+	display: none;
+	left: calc(100vw - 134%);
+}
+
+.loading{
+	transition: left 0.5s linear;
+  animation-duration: 0.8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
