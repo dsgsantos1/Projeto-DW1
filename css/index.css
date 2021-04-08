@@ -2,7 +2,7 @@
 	position: relative;
 	height: 20rem;
 
-	background-color: gray;
+	background-color: #020115;
 
 	display: flex;	
 	justify-content: center;
@@ -37,6 +37,7 @@
 
 #menu-icon{
 	font-size: 3.4rem;
+	color: #f7fefbd8;
 }
 
 #menu {
@@ -45,14 +46,19 @@
 	display: flex;
 }
 
+#menu a{
+	text-decoration: none;
+	color: #f7fefbd8;
+}
+
 .hide{
 	display: none;
 	left: calc(100vw - 134%);
 }
 
 .loading{
-	transition: left 0.5s linear;
-  animation-duration: 0.8s;
+	transition: left 0.4s linear;
+  animation-duration: 0.6s;
   animation-name: slidein;
 }
 
