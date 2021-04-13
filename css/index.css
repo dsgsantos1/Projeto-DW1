@@ -72,3 +72,11 @@
   }
 }
 
+#content #left{
+	width: 50%;
+}
+
+#content #right{
+	width: 50%;
+}
+
