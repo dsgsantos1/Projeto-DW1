@@ -9,9 +9,13 @@
 }
 
 #header #menu-content{
-	position: absolute;
+	position: fixed;
+	z-index: 1;
+	
 	width: 100vw;
 	height: 4.2rem;
+
+	background-color: #020115;
 }
 
 #header #content-header{
