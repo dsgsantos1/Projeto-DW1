@@ -1,0 +1,35 @@
+#content p{
+    text-indent: 0;
+}
+
+#text{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#text h1{
+    font-size: 40px;
+    padding: 2rem 0;
+}
+
+#invitation{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    width: 80vw;
+    display: inline-block; /**/
+    font: 100 26px Roboto;
+}
+
+#invitation h3{
+    margin-bottom: 1rem;
+}
+
+#hero-button{
+    margin: 4rem 2rem;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    background-color: white;
+}
