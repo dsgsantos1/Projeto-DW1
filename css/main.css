@@ -73,6 +73,14 @@
 	color: #f7fefbd8;
 }
 
+#rodape{
+	width: 100%;
+	height: 100px;
+	background-color: #212121;
+	padding: 20rem;
+	display: flex;
+}
+
 .animate-flash{
     animation-name: up;
     animation-duration: 2s;
