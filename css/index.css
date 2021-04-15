@@ -17,7 +17,9 @@
 #invitation{
     background-color:saddlebrown;
     color: white;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     border-radius: 0.8rem;
     text-align: center;
     width: 80%;
