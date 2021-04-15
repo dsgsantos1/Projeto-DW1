@@ -47,14 +47,36 @@
 
 #menu {
 	position: fixed;
+	top: 4.2rem;
+
 	font-size: 3.4rem;
+
+	background-color: var(--color-bg-all);
+	border-radius: 4px;
+	box-shadow: 2px 3px 6px black;
+
 	display: flex;
+	height: 100%;
+	width: 240px;
+
+	transition: all 1s;
 }
 
 #menu-items{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+}
+
+#menu a{
+	text-decoration: none;
+	color: #f7fefbd8;
+}
+
+.animate-flash{
+    animation-name: up;
+    animation-duration: 2s;
+    animation-fill-mode:backwards;
 }
 
 .item{
@@ -76,11 +98,6 @@
 }
 
 
-#menu a{
-	text-decoration: none;
-	color: #f7fefbd8;
-}
-
 .hide{
 	display: none !important;
 	left: calc(100vw - 134%);
@@ -90,6 +107,15 @@
 	transition: left 0.4s linear;
   animation-duration: 0.6s;
   animation-name: slidein;
+}
+
+@keyframes up {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 @keyframes slidein {
