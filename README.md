@@ -29,7 +29,7 @@ Jovem, curioso e iniciante.
 
 https://github.com/dsgsantos1
 
-## Erik Pereira
+## Erik Gaborim
 
 ![image](https://user-images.githubusercontent.com/66131453/114940504-ec3c3980-9e0f-11eb-930f-295010c0d48e.png)
 
@@ -39,7 +39,8 @@ Jovem desenvolvedor, entusiasta na área da computação.
 https://github.com/erikgaborim
 
 ## Exodo Jaffar
+![image](https://avatars.githubusercontent.com/u/25414650?s=400&v=4)
 
-[fotinha]
-[resumo]
-[link conta github ou outros perfils]
+``Acadêmico do curso Técnico Integrado a Informática - Instituto Federal de Mato Grosso do Sul. Jovem, curioso por tecnologias, gosto de criar facilitadores.``
+
+https://github.com/exodojaffar
