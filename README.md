@@ -23,6 +23,7 @@ A nossa equipe se "Super Shoncks" e é composta pelos alunos abaixo:
 ## Daniel Dos Santos
 
 ![image](https://user-images.githubusercontent.com/68562083/114915645-cf910900-9df1-11eb-8ef3-16bae37ec693.png)
+
 Acadêmico do Curso Técnico em Informática - IFMS, Campus Campo Grande.
 Jovem, curioso e iniciante.
 
