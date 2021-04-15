@@ -1,8 +1,8 @@
-#content #left{
-	width: 50%;
-}
-
-#content #right{
-	width: 50%;
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #212121;
+	padding: 20rem;
+	display: flex;
 }
 

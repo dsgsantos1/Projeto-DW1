@@ -1,8 +1,9 @@
 #header {
 	position: relative;
 	height: 20rem;
+	width: 100%;
 
-	background-color: var(--color-bg-all);
+	background-color: #020115;
 
 	display: flex;	
 	justify-content: center;
@@ -15,7 +16,7 @@
 	width: 100vw;
 	height: 4.2rem;
 
-	background-color: var(--color-bg-all);
+	background-color: #020115;
 }
 
 #header #content-header{
@@ -46,19 +47,8 @@
 
 #menu {
 	position: fixed;
-	top: 4.2rem;
-
 	font-size: 3.4rem;
-
-	background-color: var(--color-bg-all);
-	border-radius: 4px;
-	box-shadow: 2px 3px 6px black;
-
 	display: flex;
-	height: 100%;
-	width: 240px;
-	
-	transition: all 1s;
 }
 
 #menu-items{
@@ -84,6 +74,7 @@
 .item:hover{
 	background-color: #80808054;
 }
+
 
 #menu a{
 	text-decoration: none;
