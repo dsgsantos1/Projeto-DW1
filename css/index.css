@@ -31,13 +31,8 @@
     margin-bottom: 1rem;
 }
 
-#lil-text{
-    text-indent: 0;
-    height: 25vh;
-}
-
 #button{
-    /* margin: 4rem 2rem 2rem 2rem; */
+    margin: 4rem 2rem 4rem 2rem;
 }
 
 #hero-button{
