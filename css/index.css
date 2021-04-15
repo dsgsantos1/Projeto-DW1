@@ -15,7 +15,7 @@
 }
 
 #invitation{
-    background-color:saddlebrown;
+    background-color: var(--color-primary);
     color: white;
     padding-top: 2rem;
     padding-right: 2rem;
@@ -42,4 +42,8 @@
     padding: 1.5rem 4rem;
     background-color: white;
     border-radius: 0.8rem;
+}
+
+#invitation a:hover{
+    background-color: rgb(255, 227, 227);
 }
