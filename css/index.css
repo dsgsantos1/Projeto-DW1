@@ -1,9 +1,11 @@
 #content p{
     text-indent: 0;
+    text-align: justify;
 }
 
 #text{
     margin-top: 10rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -13,12 +15,12 @@
 }
 
 #invitation{
-    background-color: black;
+    background-color:saddlebrown;
     color: white;
     padding: 2rem;
     border-radius: 0.8rem;
     text-align: center;
-    width: 80vw;
+    width: 80%;
     display: inline-block; /**/
     font: 100 26px Roboto;
 }
@@ -27,9 +29,20 @@
     margin-bottom: 1rem;
 }
 
+#lil-text{
+    text-indent: 0;
+    height: 25vh;
+}
+
+#button{
+    /* margin: 4rem 2rem 2rem 2rem; */
+}
+
 #hero-button{
-    margin: 4rem 2rem;
+    color: #020115;
+    margin: 4rem;
     text-decoration: none;
     padding: 1.5rem 4rem;
     background-color: white;
+    border-radius: 0.8rem;
 }

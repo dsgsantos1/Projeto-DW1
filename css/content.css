@@ -6,6 +6,7 @@
 	text-align: center;
 	flex-direction: row;
 	width: 100%;
+	padding-bottom: 5.6rem;
 }
 
 #content h1 {
@@ -99,6 +100,13 @@
 .conteudo-2 li{
 	list-style: none;
 	color: #f7fefbd8;
+	text-align: justify;
+	font-size: 2rem;
+	/* margin-bottom:  0.1rem; */
+}
+.conteudo-1 li{
+	list-style: none;
+	/* color: #f7fefbd8; */
 	text-align: justify;
 	font-size: 2rem;
 	/* margin-bottom:  0.1rem; */

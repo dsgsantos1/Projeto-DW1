@@ -69,16 +69,27 @@
 }
 
 #menu a{
-	text-decoration: none;
 	color: #f7fefbd8;
 }
 
 #rodape{
-	width: 100%;
-	height: 100px;
-	background-color: #212121;
-	padding: 20rem;
 	display: flex;
+	align-items: center;
+	justify-content:space-between;
+
+	padding: 0 2.5rem 	;
+	width: 100%;
+	height: 5rem;
+
+	position: fixed;
+	bottom: 0;
+	
+	background-color: #212121;
+	font-size: 2rem;
+}
+
+#rodape *{
+	color: white
 }
 
 .animate-flash{
