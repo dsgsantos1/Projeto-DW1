@@ -31,9 +31,12 @@ https://github.com/dsgsantos1
 
 ## Erik Pereira
 
-[fotinha]
-[resumo]
-[link conta github ou outros perfils]
+![image](https://user-images.githubusercontent.com/66131453/114940504-ec3c3980-9e0f-11eb-930f-295010c0d48e.png)
+
+Acadêmico do Curso Técnico em Informática - IFMS, Campus Campo Grande.
+Jovem desenvolvedor, entusiasta na área da computação.
+
+https://github.com/erikgaborim
 
 ## Exodo Jaffar
 
