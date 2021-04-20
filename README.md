@@ -1,7 +1,9 @@
-# Link para acessar
-https://dsgsantos1.github.io/Projeto-DW1/
+
 
 # Projeto-DW1
+
+### Link para acessar
+https://dsgsantos1.github.io/Projeto-DW1/
 
 Projeto realizado na disciplina de Desenvolvimento Web 1 do IFMS - CG.
 Projeto interdisciplinar desenvolvido entre as disciplinas de Desenvolvimento Web 1 e Filosofia 5 para a turma 228
@@ -29,14 +31,18 @@ Jovem, curioso e iniciante.
 
 https://github.com/dsgsantos1
 
-## Erik Pereira
+## Erik Gaborim
 
-[fotinha]
-[resumo]
-[link conta github ou outros perfils]
+![image](https://user-images.githubusercontent.com/66131453/114940504-ec3c3980-9e0f-11eb-930f-295010c0d48e.png)
+
+Acadêmico do Curso Técnico em Informática - IFMS, Campus Campo Grande.
+Jovem desenvolvedor, entusiasta na área da computação.
+
+https://github.com/erikgaborim
 
 ## Exodo Jaffar
+![image](https://avatars.githubusercontent.com/u/25414650?s=400&v=4)
 
-[fotinha]
-[resumo]
-[link conta github ou outros perfils]
+``Acadêmico do curso Técnico Integrado a Informática - Instituto Federal de Mato Grosso do Sul. Jovem, curioso por tecnologias, gosto de criar facilitadores.``
+
+https://github.com/exodojaffar
