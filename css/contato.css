@@ -1,0 +1,54 @@
+#content{
+	text-align: inherit;
+}
+
+#page-title{
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#page-title h1{
+    font-size: 4.2rem;
+    padding: 2rem 0;
+}
+
+#form-conteiner {
+	margin: 0 12.5%;
+}
+
+#form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(5, 1fr);
+	grid-row-gap: 15px; 	
+}
+
+.end-form{
+	align-self: center;
+}
+
+.input{
+	justify-self: center;
+	min-width: 50%;
+}
+
+.input-title{
+	display: block;
+}
+
+.input label{
+	font-size: 1.6rem;
+}
+
+.input textarea {
+	width: 90%;
+	height: 100%
+}
+
+@media (max-width: 760px) {
+	#form{
+		grid-template-columns: 1fr;
+		margin: 0 2rem;
+	}	
+}

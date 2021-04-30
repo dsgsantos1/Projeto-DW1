@@ -60,6 +60,75 @@
     </header>
 
     <div id="content">
+      <div id="page-title">
+        <h1>Entre em contato conosco</h1>
+      </div>
+
+      <div id="form-conteiner">
+        <form id="form">
+
+          <div class="input">
+            <label class="input-title">Nome Completo</label>
+            <input type="text" name="nome">  
+          </div>
+          
+          <div class="input">
+            <label class="input-title">Data de Nascimento</label>
+            <input type="date" name="dianasci">  
+          </div>
+
+          <div class="input">
+            <label  class="input-title">Email</label>
+            <input type="email" name="email">  
+          </div>
+
+          <div class="input">
+            <label class="input-title">Telefone</label>
+            <input type="tel" name="tel">  
+          </div>
+
+          <div class="input">
+            <label  class="input-title">Mensagem</label>
+            <textarea name="mensagem"></textarea>
+          </div>
+
+          <div class="input">
+            <label class="input-title" for="opcoes-contato">Forma de contato</label>
+
+            <div id="opcoes-contato"> 
+              <div>
+                <input id="radio-email" type="radio" name="contato" value="email">
+                <label for="radio-email">Email</label>  
+              </div>
+              
+              <div>
+                <input id="radio-tel" type="radio" name="contato" value="tel">
+                <label for="radio-tel">Telefone</label>  
+              </div>
+
+              <div>
+                <input id="radio-wpp" type="radio" name="contato" value="wpp">
+                <label for="radio-wpp">Whatsapp</label>                  
+              </div>
+      
+            </div>
+
+            
+          </div>
+
+          <div class="input end-form">
+            <label class="input-title">Qual o tema ?</label>
+            <select>
+              <option>Blalala</option>
+            </select>
+          </div>
+
+          <div class="input end-form">
+            <input type="submit" value="Enviar mensagem">  
+          </div>
+
+        </form>
+      </div>
     </div>
 
     <footer id="rodape">
