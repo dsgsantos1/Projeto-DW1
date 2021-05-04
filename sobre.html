@@ -50,12 +50,6 @@
               </li>
             </a>
             
-            <a href="./contato.html">
-              <li class="item">
-                Contato
-              </li>
-            </a>
-            
           </ul>
         </div>
       </div>
@@ -65,13 +59,71 @@
       </div>
     </header>
 
-    <div id="content">
+    <div id = "content">
+
+      <div id = "botoes">
+      <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openCity('London')">NEABI</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Paris')">ESTUDANTES</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">PROFESSORES</button>
+      </div>
     </div>
 
-    <footer id="rodape">
+      <div id="London" class="city">
+        <h2>NEABI</h2>
+        <p>De natureza propositiva e consultiva, o Núcleo de Estudos Afro-Brasileiros e Indígenas (Neabi) tem a função de auxiliar no direcionamento de estudos, pesquisas e ações de extensão que promovam a reflexão sobre as questões étnico-raciais.</p>
+      </div>
+      
+      <div id="Paris" class="city" style="display:none">
+        <h2>Estudantes</h2>
+        <p>Os estudantes do IFMS que desenvolveram este projeto foram:
+
+          Daniel dos Santos
+          textinho sobre o Daniel
+          e-mail
+          GitHub
+          
+          Erik Gaborim 
+          textinho sobre o Erik
+          e-mail
+          GitHub
+          
+          Êxodo Jaffar
+          textinho sobre o Jaffar
+          e-mail
+          GitHub/p>
+      </div>
+      
+      <div id="Tokyo" class="city" style="display:none">
+        <h2>Professores</h2>
+        <p>Professor: 
+
+          Edi Carlos
+          lattes
+          e-mail
+          
+          Fábio Luiz Faria
+          lattes
+          e-mail</p>
+      </div>
+
+    </div>
+
+    <script>
+      function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        document.getElementById(cityName).style.display = "block";  
+      }
+      </script>
+
+    <!-- <footer id="rodape">
       <span>Projeto Desenvolvimento Web 1 </span>
       <a href="./sobre.html">Quem Somos?</a>
-    </footer>
+    </footer> -->
 
     <script type="text/javascript" src="./js/menu.js"></script>
   </body>
