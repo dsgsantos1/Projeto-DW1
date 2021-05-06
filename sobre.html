@@ -62,21 +62,41 @@
     <div id = "content">
 
       <div id = "botoes">
-      <div class="w3-bar w3-black">
-        <button class="w3-bar-item w3-button" onclick="openCity('London')">NEABI</button>
-        <button class="w3-bar-item w3-button" onclick="openCity('Paris')">ESTUDANTES</button>
-        <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">PROFESSORES</button>
+        <div class="w3-bar w3-black">
+          <button class="nav-button" show-who="London">NEABI</button>
+          <button class="nav-button" show-who="Paris">ESTUDANTES</button>
+          <button class="nav-button" show-who="Tokyo">PROFESSORES</button>
+        </div>
       </div>
-    </div>
 
-      <div id="London" class="city">
+      <div id="London" class="tags-item">
         <h2>NEABI</h2>
         <p>De natureza propositiva e consultiva, o Núcleo de Estudos Afro-Brasileiros e Indígenas (Neabi) tem a função de auxiliar no direcionamento de estudos, pesquisas e ações de extensão que promovam a reflexão sobre as questões étnico-raciais.</p>
+
+<p>Vinculado às Direções de Ensino, Pesquisa e Extensão dos campi do IFMS, sob as diretrizes da Pró-Reitoria de Extensão (Proex), o Neabi também busca contribuir para a implementação da exigência legal que obriga incluir no currículo escolar a temática “História e Cultura Afro-Brasileira e Indígena”.<p>
+
+<h2>Objetivos</h2>
+  
+  <ul>
+    <li>promover ações de valorização das identidades negra e indígenas, impulsionando a cultura da educação para a convivência e aceitação da diversidade;</li>
+    <li>realizar discussões sobre os componentes curriculares dos cursos ofertados pelo IFMS no sentido de concretizar o Plano Nacional de Implementação da Lei 11.645/2008 e auxiliar no processo de inserção dos conteúdos referentes à história e cultura afro-brasileira e dos povos indígenas no currículo escolar, em especial nas áreas de artes, literatura, sociologia, filosofia e história;</li>
+    <li>atuar como núcleo proponente e consultivo para assuntos referentes às políticas afirmativas, em especial à política de reserva de vagas para indígenas e afro-brasileiros nos processos seletivos e concursos públicos oferecidos;</li>
+    <li>estimular o desenvolvimento de ações educativas que divulguem a influência e a importância da cultura negra e indígena na formação do povo brasileiro e suas repercussões no âmbito do país, do estado, da região e do município;</li>
+    <li>promover a realização de atividades de extensão, como cursos, seminários, palestras, conferências, painéis, simpósios, oficinas e exposições de trabalhos, com participação da comunidade interna e externa, referentes às temáticas de que tratam o presente regulamento;</li>
+    <li>estimular o desenvolvimento de estudos e pesquisas nos campi com abordagens multi, trans e interdisciplinares ligadas aos temas étnico-raciais, bem como pleitear a publicação dos resultados relacionados à questão do negro e indígena em veículos de comunicação internos e externos;</li>
+    <li>estimular ações de integração de estudantes do IFMS e de escolas das redes pública e privada em comunidades negras rurais, quilombolas, comunidades e aldeias indígenas urbanas e em terras indígenas, com o intuito de realização de atividades voltadas para as questões étnico-raciais envolvendo negros e indígenas;</li>
+    <li>organizar encontros de reflexão e capacitação de servidores em educação para o conhecimento e a valorização da história dos povos africanos, da cultura afro-brasileira e indígena e da diversidade na construção histórica e cultural do país;</li>
+    <li>implementar ações direcionadas a uma educação pluricultural dos estudantes, para a construção da cidadania por meio da valorização da identidade étnico-racial, principalmente de negros e indígenas;</li>
+    <li>propor ações de levantamento do perfil da comunidade interna e externa quanto aos aspectos étnico-raciais;</li>
+    <li>assessorar os servidores na identificação de temáticas étnico-raciais, visando a implementar metodologias de ensino/aprendizagem relacionadas com a temática e viabilizar atividades pedagógicas para o desenvolvimento de ações relacionadas aos negros e indígenas;</li>
+    <li>estimular estratégias de divulgação do conjunto de ações do Núcleo de Estudos Afro-Brasileiros e Indígenas do IFMS (Neabi).</li>
+  </ul>
+    <p>Texto retirado do site do IFMS sobre o NEABI <a href="https://www.ifms.edu.br/assuntos/extensao/inclusao-e-diversidade/estudos-afro-brasileiros-e-indigenas/nucleo-de-estudos-neabi">Saiba Mais</a></p>
       </div>
       
-      <div id="Paris" class="city" style="display:none">
+      <div id="Paris" class="tags-item" style="display:none">
         <h2>Estudantes</h2>
-        <p>Os estudantes do IFMS que desenvolveram este projeto foram:
+        <pre>Os estudantes do IFMS que desenvolveram este projeto foram:
 
           Daniel dos Santos
           textinho sobre o Daniel
@@ -91,40 +111,37 @@
           Êxodo Jaffar
           textinho sobre o Jaffar
           e-mail
-          GitHub/p>
+          GitHub</pre>
       </div>
       
-      <div id="Tokyo" class="city" style="display:none">
+      <div id="Tokyo" class="tags-item" style="display:none">
         <h2>Professores</h2>
-        <p>Professor: 
 
-          Edi Carlos
-          lattes
-          e-mail
-          
-          Fábio Luiz Faria
-          lattes
-          e-mail</p>
+        <ol id="lista">
+            <li class="first-item">Edi Carlos
+              <ul>
+                <li> lattes </li>
+                <li>e-mail   </li>
+              </ul>
+            </li>
+
+          <li class="first-item">Fábio Luiz Faria
+              <ul>
+                <li> lattes </li>
+                <li>e-mail   </li>
+              </ul>
+            </li>
+        </ol>
       </div>
 
     </div>
 
-    <script>
-      function openCity(cityName) {
-        var i;
-        var x = document.getElementsByClassName("city");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
-        }
-        document.getElementById(cityName).style.display = "block";  
-      }
-      </script>
-
-    <!-- <footer id="rodape">
+    <footer id="rodape">
       <span>Projeto Desenvolvimento Web 1 </span>
       <a href="./sobre.html">Quem Somos?</a>
-    </footer> -->
+    </footer>
 
     <script type="text/javascript" src="./js/menu.js"></script>
+    <script type="text/javascript" src="./js/sobre.js"></script>
   </body>
 </html>

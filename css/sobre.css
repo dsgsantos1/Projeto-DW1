@@ -6,6 +6,30 @@
     background-color: #020115;
 }
 
-p{
-    font-size: 25px;
+#London p{
+	padding-bottom: 0.6rem; 
+	text-align: justify;
 }
+
+#London li{
+	padding-bottom: 0.6rem; 
+	text-align: justify;
+}
+
+#lista{
+	margin-left: 1.6em;
+}
+
+.tags-item{
+	padding: 2rem;
+	text-align: left;
+}
+
+.tags-item h2{
+	font-size: 25px;
+}
+
+.tags-item *{
+	font-size: 1.6rem;
+}
+
