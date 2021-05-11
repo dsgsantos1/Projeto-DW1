@@ -2,16 +2,94 @@
     margin-top: 15vh;
 }
 
-#botoes{
-    background-color: #020115;
+#content h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
-#London p{
+#content p {
+	font-size: 2rem;
+	text-indent: 1.8rem;
+	/* letter-spacing: 0rem; */
+
+	/*padding-left: 2.6rem;*/
+	text-align: justify;
+	/* margin: auto; */
+}
+
+#content hr{
+	/*height: 100vh;*/
+}
+
+
+#titulo {
+	text-align: center;
+	/* color: aliceblue; */
+	margin-top: 10rem;
+	margin-bottom: 1rem;
+	font-size: 4rem;
+}
+
+#botoes{
+    background-color: #020115;
+	text-align: left;
+	
+}
+
+.nav-button{
+	background-color: #020115;
+	border: none;
+	padding: 10px;
+	color: aliceblue;
+	margin: auto;
+}
+
+
+.conteudo-1{
+	padding-top: 5rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.conteudo-1 li{
+	list-style: none;
+	/* color: #f7fefbd8; */
+	text-align: justify;
+	font-size: 2rem;
+	/* margin-bottom:  0.1rem; */
+}
+
+#content .parte-conteudo{
+	padding-bottom: 1.6rem;
+}
+
+.left, .right{
+	max-width: 50%;
+	margin: 1.5rem;
+	display: block;
+
+}
+
+.left a, .right a{
+	text-align: justify;
+	font-style: italic;
+}
+
+.link-image{
+	text-align: justify;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+}
+
+#NEABI p{
 	padding-bottom: 0.6rem; 
 	text-align: justify;
 }
 
-#London li{
+#NEABI li{
 	padding-bottom: 0.6rem; 
 	text-align: justify;
 }
@@ -20,7 +98,7 @@
 	margin-left: 1.6em;
 }
 
-.tags-item{
+/* .tags-item{
 	padding: 2rem;
 	text-align: left;
 }
@@ -31,5 +109,10 @@
 
 .tags-item *{
 	font-size: 1.6rem;
+} */
+
+a{
+	text-decoration: none;
+	color: black;
 }
 
