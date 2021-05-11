@@ -1,5 +1,6 @@
-#content{
-    margin-top: 15vh;
+a{
+	text-decoration: none;
+	color: black;
 }
 
 #content h1 {
@@ -18,11 +19,6 @@
 	/* margin: auto; */
 }
 
-#content hr{
-	/*height: 100vh;*/
-}
-
-
 #titulo {
 	text-align: center;
 	/* color: aliceblue; */
@@ -37,6 +33,10 @@
 	
 }
 
+#lista{
+	margin-left: 1.6em;
+}
+
 .nav-button{
 	background-color: #020115;
 	border: none;
@@ -45,15 +45,14 @@
 	margin: auto;
 }
 
-
-.conteudo-1{
-	padding-top: 5rem;
+.tags-item{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	flex-flow: column;
 }
 
-.conteudo-1 li{
+.tags-item li{
 	list-style: none;
 	/* color: #f7fefbd8; */
 	text-align: justify;
@@ -61,20 +60,40 @@
 	/* margin-bottom:  0.1rem; */
 }
 
-#content .parte-conteudo{
-	padding-bottom: 1.6rem;
-}
-
-.left, .right{
-	max-width: 50%;
-	margin: 1.5rem;
-	display: block;
-
-}
-
-.left a, .right a{
+.tags-item p{
+	padding-bottom: 0.6rem; 
 	text-align: justify;
-	font-style: italic;
+}
+
+.tags-item li{
+	padding-bottom: 0.6rem; 
+	text-align: justify;
+}
+
+.tags-item .parte-conteudo{
+	padding: 1.6rem;
+}
+
+.card{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.card section {
+	margin: 1.5rem;
+}
+
+.card .img-section{
+	width: auto;
+}
+
+.card .img-section img {
+	width: 92%;
+}
+
+#Turma .card .text-section {
+	width: 155%;
 }
 
 .link-image{
@@ -83,36 +102,3 @@
 	font-size: 1.5rem;
 	color: black;
 }
-
-#NEABI p{
-	padding-bottom: 0.6rem; 
-	text-align: justify;
-}
-
-#NEABI li{
-	padding-bottom: 0.6rem; 
-	text-align: justify;
-}
-
-#lista{
-	margin-left: 1.6em;
-}
-
-/* .tags-item{
-	padding: 2rem;
-	text-align: left;
-}
-
-.tags-item h2{
-	font-size: 25px;
-}
-
-.tags-item *{
-	font-size: 1.6rem;
-} */
-
-a{
-	text-decoration: none;
-	color: black;
-}
-
