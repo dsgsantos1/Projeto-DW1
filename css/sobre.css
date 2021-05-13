@@ -1,6 +1,5 @@
 a{
 	text-decoration: none;
-	color: black;
 }
 
 #content h1 {
@@ -11,7 +10,6 @@ a{
 
 #content p {
 	font-size: 2rem;
-	text-indent: 1.8rem;
 	/* letter-spacing: 0rem; */
 
 	/*padding-left: 2.6rem;*/
@@ -22,7 +20,7 @@ a{
 #titulo {
 	text-align: center;
 	/* color: aliceblue; */
-	margin-top: 10rem;
+	margin-top: 12rem;
 	margin-bottom: 1rem;
 	font-size: 4rem;
 }
@@ -50,6 +48,11 @@ a{
 	justify-content: center;
 	text-align: center;
 	flex-flow: column;
+}
+
+.tags-item h2{
+	font-size: 30px;
+	margin: 2rem 0;
 }
 
 .tags-item li{
@@ -89,7 +92,9 @@ a{
 }
 
 .card .img-section img {
-	width: 92%;
+	width: 25rem;
+	height: 35rem;
+	border-radius: 0.8rem;
 }
 
 #Turma .card .text-section {
