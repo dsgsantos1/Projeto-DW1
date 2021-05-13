@@ -97,8 +97,8 @@ a{
 }
 
 .card h2{
-	margin-top: 0;
-	margin-bottom: 10rem;
+	margin-top: 2rem;
+	margin-bottom: 6rem;
 }
 
 .card .img-section{
@@ -109,6 +109,11 @@ a{
 	width: 25rem;
 	height: 35rem;
 	border-radius: 0.8rem;
+}
+
+#neabi-objetivos{
+	background-color: #020115;
+	color: white;
 }
 
 #Turma .card .text-section {
