@@ -88,8 +88,17 @@ a{
 	align-items: center;
 }
 
+#card-neabi{
+	align-items: start;
+}
+
 .card section {
 	margin: 1.5rem;
+}
+
+.card h2{
+	margin-top: 0;
+	margin-bottom: 10rem;
 }
 
 .card .img-section{
