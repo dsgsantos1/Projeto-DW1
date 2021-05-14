@@ -112,6 +112,11 @@ a{
 	border-radius: 0.8rem;
 }
 
+#neabi-logo{
+	width: 30rem !important;
+	height: 35rem !important;
+}
+
 #neabi-objetivos{
 	background-color: #020115;
 	color: white;
