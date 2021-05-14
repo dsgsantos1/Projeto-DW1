@@ -61,7 +61,7 @@ a{
 }
 
 .tags-item li{
-	list-style: none;
+	margin-left: 1.2rem;
 	/* color: #f7fefbd8; */
 	text-align: justify;
 	font-size: 2rem;
