@@ -121,6 +121,14 @@ a{
 	width: 155%;
 }
 
+#daniel-santos *, #exodo-melo *{
+	color: white;
+}
+
+#daniel-santos, #exodo-melo{
+	background-color: #020115;
+}
+
 .link-image{
 	text-align: justify;
 	text-decoration: none;
