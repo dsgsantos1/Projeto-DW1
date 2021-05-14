@@ -108,6 +108,7 @@ a{
 .card .img-section img {
 	width: 25rem;
 	height: 35rem;
+	object-fit: cover;
 	border-radius: 0.8rem;
 }
 
