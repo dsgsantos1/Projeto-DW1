@@ -126,6 +126,10 @@ a{
 	width: 155%;
 }
 
+#turma{
+	width: auto;
+}
+
 #daniel-santos *, #exodo-melo *{
 	color: white;
 }
