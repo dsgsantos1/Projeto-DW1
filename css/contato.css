@@ -33,17 +33,17 @@
 	align-self: center;
 }
 
-input{
-	padding: 1.2rem;
-	width: 40rem;
-	border-radius: 0.8rem;
-	text-align: center;
-}
-
 .input{
 	justify-self: center;
 	/* min-width: 50%; */
 	padding: 2rem 0;
+}
+
+.info-input{
+	padding: 1.2rem;
+	width: 40rem;
+	border-radius: 0.8rem;
+	text-align: center;
 }
 
 .input-title{
@@ -60,6 +60,10 @@ input{
 	margin: 0px;
 	width: 40rem;
 	border-radius: 0.8rem;
+}
+
+#opcoes-contato{
+	
 }
 
 @media (max-width: 760px) {
