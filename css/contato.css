@@ -29,6 +29,12 @@
 	flex-direction: column;	
 }
 
+#opcoes-contato{
+	width: max-content;
+	margin: 0 auto;
+	text-align: left ;
+}
+
 .end-form{
 	align-self: center;
 }
