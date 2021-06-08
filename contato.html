@@ -94,7 +94,7 @@
 
           <div class="input">
             <label class="input-title">Telefone</label>
-            <input class="info-input" type="tel" name="tel" placeholder="99 99999-9999">  
+            <input class="info-input" type="tel" name="tel" maxlength="13" placeholder="99 99999-9999">  
           </div>
 
           <div class="input">
@@ -129,18 +129,20 @@
           <div class="input">
             <label class="input-title">Tipo de contato</label>
             <select>
-              <option>Profissional</option>
-              <option>Oferta de emprego</option>
-              <option>Perguntas e respostas</option>
+              <option value="0">Selecionar Contato:</option>
+              <option value="1">Profissional</option>
+              <option value="2">Oferta de emprego</option>
+              <option value="3">Perguntas e respostas</option>
             </select>
           </div>
 
           <div class="input">
             <label class="input-title">Melhor horario para entrar em contato</label>
             <select>
-              <option>Manha</option>
-              <option>Tarde</option>
-              <option>Noite</option>
+              <option value="0">Selecionar Horário:</option>
+              <option value="1">Manhã</option>
+              <option value="2">Tarde</option>
+              <option value="3">Noite</option>
             </select>
           </div>
 

@@ -74,7 +74,8 @@
 .input select{
 	font-size: 1.8rem;
 	padding: 0.5rem;
-	border-radius: 0.8rem;
+	border-radius: 0.5rem;
+
 }
 
 input{
