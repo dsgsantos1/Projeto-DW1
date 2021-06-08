@@ -20,6 +20,7 @@
     --color-small-info: #C1BCCC;
     --color-bg-all: #020115;
     font-size: 60%; /* controle das medidas rem */
+    font-family: Roboto !important;
 }
 
 html, body{
