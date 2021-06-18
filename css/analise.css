@@ -7,54 +7,46 @@
     padding-top: 2rem;
 }
 
-.section-white{
+.section-content {
     display: flex;
     align-items: center;
 }
 
-.section-purple{
-    display: flex;
-    align-items: center;
-    background-color: #020115
+#content section:nth-child(even){
+    --fonte-color: black;
+    --text-color: white;
+    --text-bg: #020115;    
 }
 
-.section-purple .fonte{
-    color: white;
-}
+#content section:nth-child(odd){
+    --fonte-color: white;
+    --text-color: black;
+    --text-bg: white;
 
-#fonte-3{
-    display: flex;
-    justify-content: center;
-}
-
-#div-image-1 img{
-    width: 50rem;
-}
-
-#div-image-2 img{
-    width: 40rem;
-}
-
-#div-image-3 img{
-    width: 40rem;
-}
-
-.text-section-white{
-    font-size: 16px;
-    text-align: justify;
-    padding: 2rem;
-    margin: 3rem;
-    border-radius: 0.8rem;
     background-color: #020115;
-    color: white;
+    flex-direction: row-reverse;
 }
 
-.text-section-purple{
+.text-section{
     font-size: 16px;
     text-align: justify;
     padding: 2rem;
     margin: 3rem;
     border-radius: 0.8rem;
-    background-color: white;
-    color: black;
+    background-color: var(--text-bg);
+    color: var(--text-color);
 }
+
+.text-section h1{
+    padding-bottom:  20px;
+    font-size: 2em;
+}
+
+.img-section img{
+    width: 40rem;
+}
+
+.fonte{
+    color: var(--fonte-color);
+}
+
