@@ -84,22 +84,22 @@
 
           <div class="input">
             <label class="input-title">Nome Completo</label>
-            <input class="info-input" type="text" name="nome" placeholder="Roberto Carlos">  
+            <input class="info-input" n-null type="text" name="nome" placeholder="Roberto Carlos">  
           </div>
 
           <div class="input">
             <label  class="input-title">Email</label>
-            <input class="info-input" type="email" name="email" placeholder="nome@email.com">  
+            <input class="info-input" email n-null type="email" name="email" placeholder="nome@email.com">  
           </div>
 
           <div class="input">
             <label class="input-title">Telefone</label>
-            <input class="info-input" type="tel" name="tel" maxlength="13" placeholder="99 99999-9999">  
+            <input class="info-input" tel type="tel" name="tel" maxlength="17" placeholder="(99) 9 99999-9999">  
           </div>
 
           <div class="input">
             <label  class="input-title">Mensagem</label>
-            <textarea class="info-input" name="mensagem" placeholder="Olá, bom dia!"></textarea>
+            <textarea class="info-input" n-null name="mensagem" placeholder="Olá, bom dia!"></textarea>
           </div>
 
           <div class="input">
@@ -128,7 +128,7 @@
 
           <div class="input">
             <label class="input-title">Tipo de contato</label>
-            <select>
+            <select n-null>
               <option value="0">Selecionar Contato:</option>
               <option value="1">Profissional</option>
               <option value="2">Oferta de emprego</option>
@@ -138,7 +138,7 @@
 
           <div class="input">
             <label class="input-title">Melhor horario para entrar em contato</label>
-            <select>
+            <select n-null>
               <option value="0">Selecionar Horário:</option>
               <option value="1">Manhã</option>
               <option value="2">Tarde</option>
@@ -165,5 +165,6 @@
     </footer>
 
     <script type="text/javascript" src="./js/menu.js"></script>
+    <script type="text/javascript" src="./js/validForms.js"></script>
   </body>
 </html>
