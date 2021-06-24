@@ -82,27 +82,27 @@
 
         <form id="form" method="post">
 
-          <div class="input">
+          <div class="input input-field" name="nome" n-null>
             <label class="input-title">Nome Completo</label>
-            <input class="info-input" n-null type="text" name="nome" placeholder="Roberto Carlos">  
+            <input class="info-input" type="text" name="nome" placeholder="Roberto Carlos">  
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="email" email n-null>
             <label  class="input-title">Email</label>
-            <input class="info-input" email n-null type="email" name="email" placeholder="nome@email.com">  
+            <input class="info-input" type="email" name="email" placeholder="nome@email.com">  
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="tel" tel n-null>
             <label class="input-title">Telefone</label>
-            <input class="info-input" tel type="tel" name="tel" maxlength="17" placeholder="(99) 9 99999-9999">  
+            <input class="info-input"  type="tel" name="tel" maxlength="17" placeholder="(99) 9 99999-9999">  
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="mensagem" n-null>
             <label  class="input-title">Mensagem</label>
-            <textarea class="info-input" n-null name="mensagem" placeholder="Olá, bom dia!"></textarea>
+            <textarea class="info-input" name="mensagem" placeholder="Olá, bom dia!"></textarea>
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="contato" n-null>
             <label class="input-title" for="opcoes-contato">Forma de contato</label>
 
             <div id="opcoes-contato"> 
@@ -126,7 +126,7 @@
             
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="tp-contanto" n-null>
             <label class="input-title">Tipo de contato</label>
             <select n-null>
               <option value="0">Selecionar Contato:</option>
@@ -136,7 +136,7 @@
             </select>
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="horario" n-null>
             <label class="input-title">Melhor horario para entrar em contato</label>
             <select n-null>
               <option value="0">Selecionar Horário:</option>
@@ -146,13 +146,13 @@
             </select>
           </div>
 
-          <div class="input">
+          <div class="input input-field" name="desejas">
             <input type="checkbox" value="Enviar mensagem">  
             <label>Desejas receberes noticaficações de novidades via e-mail?</label>
           </div>
 
           <div class="input end-form">
-            <input type="submit" value="Enviar mensagem">  
+            <div id="button" onclick="validarForms()">Enviar mensagem</div>  
           </div>
 
         </form>

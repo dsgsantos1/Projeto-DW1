@@ -78,17 +78,22 @@
 
 }
 
-input{
+input, #button{
 	font-size: 1.8rem;
 	font-family: Roboto;
 }
 
 
-.input.end-form input{
+.input.end-form #button{
 	padding: 1.6rem;
 	border-radius: 0.8rem;
 	font-size: 2rem;
 	font-weight: 500;
+
+	cursor: pointer;
+	background-color: white;
+	border-radius: 7px;
+	color: black;
 }
 
 ::placeholder{
