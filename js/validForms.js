@@ -5,13 +5,20 @@ const allInputs = form.querySelectorAll('.input-field')
 
 // Globais
 let valoresCampos = new Object();
+let nomesBonitosCampos = new Object();
 
 allInputs.forEach( (input) => {
 	const inputName = input.getAttribute('name')
+	const labelText = input.querySelector('label').innerText
 
 	valoresCampos = {
 		...valoresCampos,
 		[inputName]: undefined
+	}
+
+	nomesBonitosCampos = {
+		... nomesBonitosCampos,
+		[inputName]: labelText
 	}
 
 })
@@ -79,7 +86,10 @@ const validateField = (eventProps) => {
 
 
 
-	const validations = attributes.filter( (nameAttribute) => {return Object.keys(validateTests).slice(Object.keys(validateTests).indexOf('n-null'), 1) .includes(nameAttribute)})
+	const validations = attributes.filter( (nameAttribute) => {
+
+		return Object.keys(validateTests).includes(nameAttribute)
+	})
 
 	let {value, checked} = target
 	let valido = true
@@ -88,13 +98,15 @@ const validateField = (eventProps) => {
 		value = checked
 	}
 
-	console.log(value)
+	
 
 	for (funcName of validations) {
+		
 		const result = validateTests[funcName].call(this, value)
 
 		if (result != true) {
 			valido = false
+			
 			alert(result)
 			break;
 		}
@@ -109,21 +121,28 @@ const validateField = (eventProps) => {
 
 // Validação do Forms e Envio
 const validarForms = () => {
-	const someInputs = form.querySelectorAll('.input-field + [n-null]') 
+	const someInputs = form.querySelectorAll('.input-field[n-null=""]') 
 
 	let valeu = true
+
+	let inputNameAlert; 
 
 	for(input of someInputs){
 		const inputName = input.getAttribute("name")
 
-		if (validateTests[inputName] == undefined) {
+		// console.log(inputName)
+
+		if (valoresCampos[inputName] == undefined) {
+			// console.log(`${inputName} - ${valoresCampos[inputName]}`)
+			inputNameAlert = inputName;
+
 			valeu = false
 			break;
 		}
 	}
 
 	if (!valeu) {
-		alert("Arruma esse forms!!")
+		alert(`Preencha o campo: ${nomesBonitosCampos[inputNameAlert]}`)
 		return;
 
 	}else{
