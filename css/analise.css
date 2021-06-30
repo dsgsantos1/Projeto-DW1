@@ -28,7 +28,7 @@
 }
 
 .text-section{
-    font-size: 16px;
+    font-size: 2rem;
     text-align: justify;
     padding: 2rem;
     margin: 3rem;
@@ -46,7 +46,14 @@
     width: 40rem;
 }
 
-.fonte{
-    color: var(--fonte-color);
+.fonte, .fonte a {
+    color: black;
+    font-size: 1.6rem;
 }
+
+#section-2 .fonte, #section-2 .fonte a{
+    /* margin-top: 0.3rem; */
+    color: white;
+}
+
 
